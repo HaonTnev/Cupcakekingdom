@@ -32,7 +32,11 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Texture2DAsset_344264d4d6354a7699ff0264c69f0bf9_Out_0:
+        m_Texture: {fileID: 2800000, guid: 27b08260fde11fe428e6acf4f976120d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
