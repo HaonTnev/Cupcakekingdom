@@ -8,6 +8,7 @@ public class CameraMovement : MonoBehaviour
     // movement
     public float speed = 5f;
     public float turnSpeed = 4f;
+    public Vector3 nextPosition;
     //rotation
     public float minTurnAngle = -90.0f;
     public float maxTurnAngle = 90.0f;
@@ -19,6 +20,7 @@ public class CameraMovement : MonoBehaviour
 
     private void Update()
     {
+        //transform.position = Vector3.Lerp(transform.position, nextPosition, Time.deltaTime * speed);
         Move();
         MouseAiming();
     }
