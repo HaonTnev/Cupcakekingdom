@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    color: {r: 0.6698113, g: 0.5023585, b: 0.5023585, a: 1}
-    sunColor: {r: 0.7264151, g: 0.640753, b: 0.640753, a: 1}
-    fogDensity: 0.01
-    fogDensityPower: 0.4
-    skyAlpha: 1
-    useHeightFog: 0
-    fogHeightStart: 0
-    fogHeightEnd: 30
-    fogHeightPower: 0.5
-    extraFogHeightEnd: 0
-    extraFogHeightPower: 0.5
-    directionalIntesity: 1
-    directionalPower: 1
+    color: {r: 0.8396226, g: 0.6693218, b: 0.8240074, a: 1}
+    sunColor: {r: 0.7924528, g: 0.66909933, b: 0.7637252, a: 1}
+    fogDensity: 0.08
+    fogDensityPower: 3.6
+    skyAlpha: 0.155
+    useHeightFog: 1
+    fogHeightStart: -30.5
+    fogHeightEnd: 310.9
+    fogHeightPower: 0.1
+    extraFogHeightEnd: -73.57
+    extraFogHeightPower: 5.6
+    directionalIntesity: 1.55
+    directionalPower: 4.1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
