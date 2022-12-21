@@ -8,6 +8,8 @@ public class CameraMovement : MonoBehaviour
     // movement
     public float speed = 5f;
     public float turnSpeed = 4f;
+    public float currentSpeed = 0;
+
     public Vector3 nextPosition;
     //rotation
     public float minTurnAngle = -90.0f;
@@ -36,6 +38,8 @@ public class CameraMovement : MonoBehaviour
         Vector3 gravityMove = new Vector3(0, verticalSpeed, 0);
         Vector3 move = transform.forward * vertical + transform.right * horizontal;
         characterController.Move(Time.deltaTime * speed * move + gravityMove * Time.deltaTime);
+
+        currentSpeed = horizontal;
     }
 
     void MouseAiming()
