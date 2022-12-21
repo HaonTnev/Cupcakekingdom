@@ -21,6 +21,7 @@ public class Wandering : MonoBehaviour
     public bool wander;
     public bool hide;
     public bool cleverhide;
+    public bool hideandseek;
 
     public Vector3 wanderTarget = Vector3.zero;
     public Vector3 chosenSpot;
@@ -144,6 +145,28 @@ public class Wandering : MonoBehaviour
         return false;
     }
 
+    bool TargetCanSeeMe()
+    {
+        Vector3 toAgent = this.transform.position - target.transform.position;
+        float lookingAngle = Vector3.Angle(target.transform.forward, toAgent);
+
+        if (lookingAngle < 60) return true;
+        return false;
+    }
+
+    bool coolDown = false;
+    void BehaviourCoolDown()
+    {
+        coolDown = false;
+    }
+
+    bool CloseEnough()
+    {
+
+        if (Vector3.Distance(this.transform.position, target.transform.position) < 30) return true;
+        return false;
+    }
+
     void Update()
     {
         if (seeking)
@@ -174,6 +197,23 @@ public class Wandering : MonoBehaviour
         {
             if(CanSeeTarget())
             CleverHide();
+        }
+        else if (hideandseek)
+        {
+            if (!coolDown)
+            {
+                if (!CloseEnough())
+                {
+                    Wander();
+                }
+                else if (CanSeeTarget() && TargetCanSeeMe())
+                {
+                        CleverHide();
+                        coolDown = true;
+                        Invoke("BehaviourCoolDown", 5);
+                }
+                else Pursuit();
+            }
         }
     }
 }

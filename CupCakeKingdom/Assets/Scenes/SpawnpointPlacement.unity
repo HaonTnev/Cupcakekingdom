@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 5312547}
   m_Layer: 0
   m_Name: Player Camera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
   lookAheadMultiplier: 1
   hideDistance: 3
   wanderRadius: 200
-  wanderDistance: 250
+  wanderDistance: 100
   wanderJitter: 50
   seeking: 0
   fleeing: 0
@@ -733,7 +733,8 @@ MonoBehaviour:
   evade: 0
   wander: 0
   hide: 0
-  cleverhide: 1
+  cleverhide: 0
+  hideandseek: 1
   wanderTarget: {x: 0, y: 0, z: 0}
   chosenSpot: {x: 0, y: 0, z: 0}
 --- !u!23 &1340989024
@@ -794,7 +795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340989020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413, y: 98.82, z: -392.5}
+  m_LocalPosition: {x: 425.4, y: 98.82, z: -371.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -904,7 +905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572452782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403, y: 102.9, z: -389.7}
+  m_LocalPosition: {x: 392.7, y: 103.6, z: -386.1}
   m_LocalScale: {x: 2, y: 10, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1079,7 +1080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792557578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 413.8, y: 100.2, z: -400}
+  m_LocalPosition: {x: 399.2, y: 99.5, z: -415.7}
   m_LocalScale: {x: 2, y: 10, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1176,7 +1177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823216991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 421.2, y: 101.7, z: -393.3}
+  m_LocalPosition: {x: 424.9, y: 102.3, z: -374.4}
   m_LocalScale: {x: 2, y: 10, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
