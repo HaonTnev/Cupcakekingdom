@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: -6975503607301518945}
   - component: {fileID: 7160765387831064255}
   m_Layer: 0
-  m_Name: "ba\u0308rchen 1"
+  m_Name: "b\xE4rchen 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,8 +194,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2921397192812532027}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.000000017437408, y: 2.065751, z: 0.00000041063174}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.000000017462298, y: 1.5901989, z: 0.1489387}
   m_LocalScale: {x: 1.203077, y: 1.203077, z: 1.203077}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -205,7 +205,7 @@ Transform:
   - {fileID: 33042975620567899}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &870486848476926610
 MeshFilter:
   m_ObjectHideFlags: 0
