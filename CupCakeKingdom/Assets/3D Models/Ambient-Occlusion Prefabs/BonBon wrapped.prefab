@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &1904469239474425996
 Transform:
@@ -138,6 +138,10 @@ PrefabInstance:
     - target: {fileID: 8878933547369088299, guid: 19f509e2bd4ac4d6e821e2c1623320f9, type: 3}
       propertyPath: m_Name
       value: BonBonWrapped
+      objectReference: {fileID: 0}
+    - target: {fileID: 8878933547369088299, guid: 19f509e2bd4ac4d6e821e2c1623320f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19f509e2bd4ac4d6e821e2c1623320f9, type: 3}
