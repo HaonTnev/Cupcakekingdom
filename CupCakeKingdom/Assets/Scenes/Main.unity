@@ -14428,6 +14428,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4208715996372282787, guid: f9d2fb41dbf4d478493027a14d00d5e9, type: 3}
+      propertyPath: pursue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4208715996372282787, guid: f9d2fb41dbf4d478493027a14d00d5e9, type: 3}
+      propertyPath: wander
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4208715996372282788, guid: f9d2fb41dbf4d478493027a14d00d5e9, type: 3}
       propertyPath: m_Name
       value: Bear Pink (1)
@@ -16276,15 +16284,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 205
+      value: -285
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalRotation.w
