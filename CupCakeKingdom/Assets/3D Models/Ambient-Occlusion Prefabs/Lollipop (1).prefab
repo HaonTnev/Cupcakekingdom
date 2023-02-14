@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -2196988100367024901}
   - component: {fileID: 1770419084127692540}
   - component: {fileID: -2634095726624889249}
+  - component: {fileID: 2702040854510374400}
   m_Layer: 0
   m_Name: Lollipop (1)
   m_TagString: Untagged
@@ -94,7 +95,7 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0, y: 0, z: 0}
   m_Size: 1
-  m_FadeMode: 0
+  m_FadeMode: 1
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
@@ -111,3 +112,23 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1770419084127692540}
   m_Enabled: 1
+--- !u!220 &2702040854510374400
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031136927589998514}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: -1}
+  - {x: 1, y: -1, z: 1}
+  - {x: 1, y: -1, z: -1}
+  - {x: -1, y: 1, z: 1}
+  - {x: -1, y: 1, z: -1}
+  - {x: -1, y: -1, z: 1}
+  - {x: -1, y: -1, z: -1}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_Dering: 1
