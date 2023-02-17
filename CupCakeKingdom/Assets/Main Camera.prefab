@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6583868663806794075}
   - component: {fileID: 6583868663806794073}
   - component: {fileID: 6583868663806794072}
+  - component: {fileID: 963194232}
+  - component: {fileID: 963194233}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -28,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583868663806794079}
-  m_LocalRotation: {x: -0, y: 0.093590766, z: -0, w: -0.9956108}
+  m_LocalRotation: {x: 0, y: 0.09358715, z: -0, w: -0.99561113}
   m_LocalPosition: {x: 245, y: 4, z: 214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -142,6 +144,8 @@ MonoBehaviour:
   rotX: 0
   gravity: 9.87
   verticalSpeed: 0
+  shakeDuration: 3
+  shakeMagnitude: 2
 --- !u!143 &6583868663806794072
 CharacterController:
   m_ObjectHideFlags: 0
@@ -160,3 +164,31 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!45 &963194232
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583868663806794079}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &963194233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583868663806794079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f8baef86c6d494c8333f99015f62d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  active: 0

@@ -29,6 +29,7 @@ public class Ascension : MonoBehaviour
     void Update()
     {
         if (rise) Ascend();
+        CloseEnough();
     }
 
     void Ascend()
@@ -54,18 +55,22 @@ public class Ascension : MonoBehaviour
             Destroy(this.gameObject);
         } 
     }
+    bool CloseEnough()
+    {
+        if (Vector3.Distance(this.transform.position, cameraMain.transform.position) < 120) return true;
+        return false;
+    }
 
     IEnumerator Timer2()
     {
         yield return new WaitForSeconds(waituntilascension);
         Debug.Log("Ascension");
         rise = true;
-        cameraMain.GetComponent<CameraMovement>().StartShake();
     }
 
     IEnumerator Timer1()
     {
         yield return new WaitForSeconds(waituntilascension - 3.5f);
-        cameraMain.GetComponent<CameraMovement>().StartShake();
+        if(CloseEnough()) cameraMain.GetComponent<CameraMovement>().StartShake();
     }
 }
