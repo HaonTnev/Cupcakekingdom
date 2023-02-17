@@ -126,8 +126,6 @@ public class Wandering : MonoBehaviour
         float distance = 100f;
         hideCol.Raycast(backRay, out info, distance);
 
-
-
         Seek(info.point + choseDir.normalized * hideDistance);
     }
 
