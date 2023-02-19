@@ -14,19 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    color: {r: 0.8301887, g: 0.59131366, b: 0.80559856, a: 1}
-    sunColor: {r: 0.9339623, g: 0.5066305, b: 0.89039123, a: 1}
-    fogDensity: 0.001
-    fogDensityPower: 1.1
-    skyAlpha: 0.01
-    useHeightFog: 0
-    fogHeightStart: 122.6
-    fogHeightEnd: 431.44
-    fogHeightPower: 0.1
-    extraFogHeightEnd: 0
+    color: {r: 0.5408804, g: 0.36165005, b: 0.5943396, a: 1}
+    sunColor: {r: 0.8207547, g: 0.46844962, b: 0.6863905, a: 1}
+    fogDensity: 0.01
+    fogDensityPower: 0.7
+    skyAlpha: 0.11
+    useHeightFog: 1
+    fogHeightStart: 300
+    fogHeightEnd: 1000
+    fogHeightPower: 4.9
+    extraFogHeightEnd: 10
     extraFogHeightPower: 0.1
-    directionalIntesity: 0
-    directionalPower: 1
+    directionalIntesity: 0.91
+    directionalPower: 1.3
+--- !u!114 &-759014261219966938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}
+  m_Name: ScreenSpaceAmbientOcclusion
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+  m_Settings:
+    Downsample: 1
+    AfterOpaque: 1
+    Source: 1
+    NormalSamples: 1
+    Intensity: 2.29
+    DirectLightingStrength: 0.23
+    Radius: 1.15
+    SampleCount: 6
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +66,8 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
   - {fileID: -3195396588552134162}
-  m_RendererFeatureMap: eee1da8ebbaba7d3
+  - {fileID: -759014261219966938}
+  m_RendererFeatureMap: eee1da8ebbaba7d3264087048d7077f5
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}

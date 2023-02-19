@@ -20,11 +20,25 @@ public class CameraMovement : MonoBehaviour
     public float gravity = 9.87f;
     public float verticalSpeed = 0f;
 
+    //shaking
+    public float shakeDuration = 0.5f;
+    public float shakeMagnitude = 0.1f;
+
+    private Vector3 originalPosition;
+    private float timeElapsed = 10f;
+
+
+    void Start()
+    {
+        originalPosition = transform.position;
+    }
+
     private void Update()
     {
         //transform.position = Vector3.Lerp(transform.position, nextPosition, Time.deltaTime * speed);
         Move();
         MouseAiming();
+        Screenshake();
     }
 
     void Move()
@@ -51,5 +65,25 @@ public class CameraMovement : MonoBehaviour
         rotX = Mathf.Clamp(rotX, minTurnAngle, maxTurnAngle);
         // rotate the camera
         transform.eulerAngles = new Vector3(-rotX, transform.eulerAngles.y + y, 0);
+    }
+
+    void Screenshake()
+    {
+        if (timeElapsed < shakeDuration)
+        {
+            float x = originalPosition.x + Random.Range(-1f, 1f) * shakeMagnitude;
+            float y = originalPosition.y + Random.Range(-1f, 1f) * shakeMagnitude;
+            float z = originalPosition.z;
+
+            transform.position = new Vector3(x, y, z);
+            timeElapsed += Time.deltaTime;
+        }
+    }
+
+
+    public void StartShake()
+    {
+        originalPosition = transform.position;
+        timeElapsed = 0f;
     }
 }
