@@ -14185,11 +14185,11 @@ GameObject:
   - component: {fileID: 1286759726}
   m_Layer: 0
   m_Name: RotatingCamera
-  m_TagString: Untagged
+  m_TagString: RotCam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1286759726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14205,7 +14205,7 @@ MonoBehaviour:
   target: {fileID: 120169998}
   axis: {x: 0, y: 1, z: 0}
   rotationSpeed: 20
-  offset: {x: 40, y: 25, z: 0}
+  offset: {x: 55, y: 35, z: 0}
 --- !u!114 &1286759727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14621,8 +14621,8 @@ MonoBehaviour:
   currentSpeed: 0
   frequency: 0.1
   amplitude: 0.3
-  waituntilascension: 180
-  waituntildestruction: 188
+  waituntilascension: 20
+  waituntildestruction: 28
   rise: 0
 --- !u!1001 &1434810508
 PrefabInstance:
@@ -16680,15 +16680,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 535.9
+      value: -333
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 42.2
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -715.7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6583868663806794074, guid: d5c02edb1793e44f7835d5f6d08bf30f, type: 3}
       propertyPath: m_LocalRotation.w
