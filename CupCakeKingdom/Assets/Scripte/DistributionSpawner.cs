@@ -38,7 +38,7 @@ public class DistributionSpawner : MonoBehaviour
     IEnumerator DistributeObjectsOverGround()
     {
         Vector3 center = prefab.transform.position;
-        float radius = 10.0f;
+        float radius = 250.0f;
         float distributionRate = 3.0f;
 
         for (int i = 0; i < duplicatedGameObjects.Count; i++)
@@ -61,7 +61,7 @@ public class DistributionSpawner : MonoBehaviour
 
             child.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
         }
-        Invoke("Static", 20);
+        Invoke("Static", 10);
     }
 
     public void Static()
