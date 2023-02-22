@@ -3,12 +3,182 @@ guid: cd5e7e500916ebf4c838505ef5d70ec4
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cone
+    second: {fileID: 2100000, guid: 086046f7cf014a54bb114ff62fbe5d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cream 1
+    second: {fileID: 2100000, guid: 4bdef462d8ca79840aa009efaa620a4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cream 2
+    second: {fileID: 2100000, guid: 199869f20ddfc4b429d24281850715c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cream 3
+    second: {fileID: 2100000, guid: e4a8a4e4d437f204b85378c37a3028e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gate
+    second: {fileID: 2100000, guid: 92cb9e1fc8f114048b08ab5f3fe40002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: house big
+    second: {fileID: 2100000, guid: 0a152c596e27767469feb5387f47f7b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: house small
+    second: {fileID: 2100000, guid: ef97459d0d0997546967f60a0f2ba8e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marsch gate
+    second: {fileID: 2100000, guid: 7d7ee7216c7ac3842b1953654bd6b8fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marsch window 1
+    second: {fileID: 2100000, guid: c232b03548b5a6e4eaaa2e18fd60b613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marsch window 2
+    second: {fileID: 2100000, guid: 6205b4080e2a185408d2c19f5c190587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marsch window big
+    second: {fileID: 2100000, guid: 0decd71dbc4ef40409d2177aec571488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marsch window small
+    second: {fileID: 2100000, guid: c002da9e74e3d914cb027896369a0c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marschmellow 1
+    second: {fileID: 2100000, guid: 6ba241182e6cc0f4db173537cc1fc9c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 4729caf8ecd52704fb61d3ea39a7aeb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof small 1
+    second: {fileID: 2100000, guid: 9e1d28c9e6c34d647b326f4232eaa252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof small 2
+    second: {fileID: 2100000, guid: b1c929753acfe5e45a6cbbdc9992148b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof small 3
+    second: {fileID: 2100000, guid: 4ca5007450df8854ba671cfc7e3a8d0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof small 4
+    second: {fileID: 2100000, guid: 56761ebfef07e2843a060373529d201e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko gate
+    second: {fileID: 2100000, guid: e63da8f45b24fd94a8903e100d8d06d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window 1
+    second: {fileID: 2100000, guid: afe9182ec089fa14fa442c683c71b70e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window 2
+    second: {fileID: 2100000, guid: 694be8accf5982949ac550881c3821cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window big 1
+    second: {fileID: 2100000, guid: 50a55c43d7335054181d479d19b2018f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window big 2
+    second: {fileID: 2100000, guid: 9dd434f85478a4040bf4c0194e0bbc7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window small 1
+    second: {fileID: 2100000, guid: 2b9885fdf267d354091bff04d9f506a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoko window small 2
+    second: {fileID: 2100000, guid: f36ff13226d239945ab518638337a90f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprinkles
+    second: {fileID: 2100000, guid: 829ff70ee3fd1ea4f8bb31ca511e207e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprinkles 2
+    second: {fileID: 2100000, guid: 6eb7ab294eb96a04fad99d5945cb7864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprinkles 3
+    second: {fileID: 2100000, guid: 267e8a89c55ec3e408cb332bb7a88465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower
+    second: {fileID: 2100000, guid: d52f490f27edf474aa5ac2ece76b597b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower big
+    second: {fileID: 2100000, guid: 52330d43fa5e14c4c9fe2ea7257a93f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower small
+    second: {fileID: 2100000, guid: 355291ce1be6cb54a96b81427fc1ec38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower watch
+    second: {fileID: 2100000, guid: 145b9fa1b40fbfe4db1801637211a8ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waffle
+    second: {fileID: 2100000, guid: a5fe3f98d4db8cd4e8ebc52fa7e04ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: 6a3917944a0fcf048a7dc54942be11c0, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
