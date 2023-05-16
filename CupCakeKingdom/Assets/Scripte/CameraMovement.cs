@@ -27,18 +27,21 @@ public class CameraMovement : MonoBehaviour
     private Vector3 originalPosition;
     private float timeElapsed = 10f;
 
-
+    
     void Start()
     {
         originalPosition = transform.position;
+
     }
 
     private void Update()
     {
-        //transform.position = Vector3.Lerp(transform.position, nextPosition, Time.deltaTime * speed);
-        Move();
-        MouseAiming();
-        Screenshake();
+
+            Move();
+            MouseAiming();
+            Screenshake();
+        
+
     }
 
     void Move()
